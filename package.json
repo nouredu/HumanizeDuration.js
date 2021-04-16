@@ -1,5 +1,6 @@
 {
-  "name": "humanize-duration",
+  "name": "@nouredu/humanize-duration",
+  "private": false,
   "author": "Evan Hahn <me@evanhahn.com> (https://evanhahn.com)",
   "contributors": [
     "Óli Tómas Freysson (https://github.com/olitomas)",
@@ -32,9 +33,9 @@
     "Aryan Rawlani (https://github.com/aryanrawlani28)",
     "Kristijan Jesenski (https://github.com/kjesenski)"
   ],
-  "version": "3.25.2",
+  "version": "3.25.3",
   "description": "Convert millisecond durations to English and many other languages.",
-  "homepage": "https://github.com/EvanHahn/HumanizeDuration.js",
+  "homepage": "https://github.com/nouredu/HumanizeDuration.js",
   "main": "humanize-duration.js",
   "scripts": {
     "pretest": "npm run lint",
@@ -61,10 +62,7 @@
     "years",
     "months"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/EvanHahn/HumanizeDuration.js.git"
-  },
+  "repository": "git://github.com/nouredu/HumanizeDuration.js.git",
   "bugs": "https://github.com/EvanHahn/HumanizeDuration.js/issues",
   "license": "Unlicense",
   "files": [
